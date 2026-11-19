@@ -1,4 +1,4 @@
-//navigation bar for users with the admin role
+<!--navigation bar for users with the admin role-->
 
 <nav>
   <ul>

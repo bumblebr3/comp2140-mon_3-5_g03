@@ -1,4 +1,4 @@
-//navigation bar for users with the security role
+<!--navigation bar for users with the security role-->
 
 <nav>
     <ul>
