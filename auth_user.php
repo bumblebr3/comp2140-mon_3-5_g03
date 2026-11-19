@@ -2,7 +2,7 @@
 session_start();
 
 //temporary login information which defaults to security
-if (!($_SESSION['role'])){
+if (!isset($_SESSION['role'])){
     $_SESSION['username'] = 'Test';
     $_SESSION['role'] = 'security';
 }
