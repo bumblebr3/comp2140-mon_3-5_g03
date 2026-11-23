@@ -11,6 +11,7 @@
         <header>
             <img src="" alt = "Az Preston Hall's logo">
             <h2>Sign In Guest</h2>
+             <?php include 'navbar_security.php'; ?>
         </header>
         <form id="guestForm">
             <div class="pg1 form-section"> 
