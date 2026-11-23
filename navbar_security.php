@@ -2,7 +2,7 @@
 
 <nav>
     <ul>
-        <li><a href="security_home.php">Home</a></li>
+        <li><a href="security_homepage.php">Home</a></li>
         <li><a href="guest_sign_in.php">Add A New Guest</a></li>
         <li><a href="active_guests.php">Active Guests</a></li>
         <li><a href="search_resident.php">Search Residents</a></li>
