@@ -9,7 +9,7 @@ if($_SESSION['role'] !== 'admin') {
 $search_date = '';
 $has_searched = false;
 
-// Handle the form submission
+
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $search_date = trim($_POST['audit_log_date'] ?? '');
     if ($search_date !== '') {
@@ -44,7 +44,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         </form>
     </section>
 
-    <!-- Only show the logs if they have searched -->
     <?php if ($has_searched): ?>
     <section class="card">
         <h2>Audit Logs for <?= h($search_date) ?></h2>
