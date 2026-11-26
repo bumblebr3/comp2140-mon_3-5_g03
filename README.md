@@ -17,6 +17,7 @@ A website demo for the AZ Preston Hall Visitor Sign-In System using HTML, CSS, v
 5. Use **Add User** from the administrator navigation to create security accounts.
 
 ## Administrator Sign In
+
 PresAdmin76
 Pre$ton64Ad
 
@@ -36,7 +37,7 @@ Brevo requires internet access. Email delivery is subject to the free plan's sen
 1. Create Task
 2. Program/script - C:\xampp\php\php.exe
 3. Begin task on schedule
-4. Daily, repeat every 5 mins.
+4. Daily, repeat every 5 mins
 
 ## Main Pages and Permissions
 
@@ -61,8 +62,5 @@ Brevo requires internet access. Email delivery is subject to the free plan's sen
 
 ## Notes
 
-- Passwords are stored using PHP password hashing.
-- Role checks are performed on the server.
 - Sessions end after 30 minutes of inactivity.
-- Resident ID number and room number are hidden from Security on the resident search screen and resident picker.
 - CSV exports open in Microsoft Excel and Google Sheets. This simple build exports CSV, not native `.xlsx` files.
