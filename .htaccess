@@ -1,0 +1,3 @@
+# Disable directory listings and use index.php as the default directory page.
+Options -Indexes
+DirectoryIndex index.php

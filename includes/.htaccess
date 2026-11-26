@@ -1,0 +1,2 @@
+# Prevent direct web access to internal PHP helper files.
+Require all denied

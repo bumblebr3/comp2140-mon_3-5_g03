@@ -1,0 +1,2 @@
+# Prevent visitors from requesting private application configuration files.
+Require all denied
